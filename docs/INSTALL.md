@@ -4,7 +4,7 @@ Off Player is a free, open-source Windows app (GPL-3.0) for watching the shows a
 
 ## 1. Run the installer
 
-Double-click `Off Player_1.0.0_x64-setup.exe`. It installs for your Windows account only, so it doesn't need administrator rights.
+Double-click `Off-Player_1.0.0_x64-setup.exe`. It installs for your Windows account only, so it doesn't need administrator rights.
 
 **"Windows protected your PC".** The installer isn't signed with a paid certificate, so Windows SmartScreen shows a blue warning the first time. Click **More info**, then **Run anyway**.
 
