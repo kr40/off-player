@@ -1,0 +1,63 @@
+{
+ "key": "john-wick",
+ "name": "John Wick",
+ "group": "film",
+ "blurb": "The High Table, the Continental and the man they sent to kill the Boogeyman.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ballerina_(2025_film)"
+ ],
+ "entries": [
+  {
+   "ref": "cont",
+   "type": "tv",
+   "title": "The Continental: From the World of John Wick",
+   "year": 2023,
+   "note": "Set in the 1970s."
+  },
+  {
+   "ref": "jw1",
+   "type": "movie",
+   "title": "John Wick",
+   "year": 2014
+  },
+  {
+   "ref": "jw2",
+   "type": "movie",
+   "title": "John Wick: Chapter 2",
+   "year": 2017
+  },
+  {
+   "ref": "jw3",
+   "type": "movie",
+   "title": "John Wick: Chapter 3 - Parabellum",
+   "year": 2019
+  },
+  {
+   "ref": "ballerina",
+   "type": "movie",
+   "title": "Ballerina",
+   "year": 2025,
+   "note": "Set between Chapter 3 and Chapter 4.",
+   "tmdb": 541671
+  },
+  {
+   "ref": "jw4",
+   "type": "movie",
+   "title": "John Wick: Chapter 4",
+   "year": 2023
+  }
+ ],
+ "orders": {
+  "story": [
+   "cont",
+   "jw1",
+   "jw2",
+   "jw3",
+   "ballerina",
+   "jw4"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

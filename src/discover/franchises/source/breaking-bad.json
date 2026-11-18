@@ -1,0 +1,41 @@
+{
+ "key": "breaking-bad",
+ "name": "Breaking Bad",
+ "group": "film",
+ "blurb": "Albuquerque's criminal world: Saul Goodman, Walter White and Jesse Pinkman.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Better_Call_Saul"
+ ],
+ "entries": [
+  {
+   "ref": "bb",
+   "type": "tv",
+   "title": "Breaking Bad",
+   "year": 2008
+  },
+  {
+   "ref": "bcs",
+   "type": "tv",
+   "title": "Better Call Saul",
+   "year": 2015,
+   "note": "Mostly before Breaking Bad; its final episodes jump past El Camino."
+  },
+  {
+   "ref": "camino",
+   "type": "movie",
+   "title": "El Camino: A Breaking Bad Movie",
+   "year": 2019,
+   "note": "Picks up the moment Breaking Bad ends."
+  }
+ ],
+ "orders": {
+  "story": [
+   "bcs",
+   "bb",
+   "camino"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

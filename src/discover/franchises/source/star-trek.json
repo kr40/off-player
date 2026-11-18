@@ -1,0 +1,105 @@
+{
+ "key": "star-trek",
+ "name": "Star Trek",
+ "group": "film",
+ "blurb": "Every Star Trek series, from the first warp ships to the 32nd century, in StarTrek.com's chronological viewing order.",
+ "sources": [
+  "https://www.startrek.com/news/star-trek-viewing-order-guide"
+ ],
+ "entries": [
+  {
+   "ref": "ent",
+   "type": "tv",
+   "title": "Star Trek: Enterprise",
+   "year": 2001,
+   "note": "The 2150s: the first warp-five starship."
+  },
+  {
+   "ref": "disco",
+   "type": "tv",
+   "title": "Star Trek: Discovery",
+   "year": 2017,
+   "note": "Begins in the 2250s; from season 3 it jumps to the 32nd century."
+  },
+  {
+   "ref": "snw",
+   "type": "tv",
+   "title": "Star Trek: Strange New Worlds",
+   "year": 2022,
+   "note": "Late 2250s, Captain Pike's Enterprise."
+  },
+  {
+   "ref": "tos",
+   "type": "tv",
+   "title": "Star Trek",
+   "year": 1966,
+   "note": "The original series, the 2260s."
+  },
+  {
+   "ref": "tas",
+   "type": "tv",
+   "title": "Star Trek: The Animated Series",
+   "year": 1973,
+   "tmdb": 1992
+  },
+  {
+   "ref": "tng",
+   "type": "tv",
+   "title": "Star Trek: The Next Generation",
+   "year": 1987,
+   "note": "2364–2370."
+  },
+  {
+   "ref": "ds9",
+   "type": "tv",
+   "title": "Star Trek: Deep Space Nine",
+   "year": 1993,
+   "note": "2369–2375."
+  },
+  {
+   "ref": "voy",
+   "type": "tv",
+   "title": "Star Trek: Voyager",
+   "year": 1995
+  },
+  {
+   "ref": "ld",
+   "type": "tv",
+   "title": "Star Trek: Lower Decks",
+   "year": 2020,
+   "note": "The 2380s."
+  },
+  {
+   "ref": "picard",
+   "type": "tv",
+   "title": "Star Trek: Picard",
+   "year": 2020,
+   "note": "Late 2390s."
+  },
+  {
+   "ref": "sfa",
+   "type": "tv",
+   "title": "Star Trek: Starfleet Academy",
+   "year": 2026,
+   "note": "The 32nd century."
+  }
+ ],
+ "orders": {
+  "story": [
+   "ent",
+   "disco",
+   "snw",
+   "tos",
+   "tas",
+   "tng",
+   "ds9",
+   "voy",
+   "ld",
+   "picard",
+   "sfa"
+  ]
+ },
+ "orderLabels": {
+  "story": "Timeline order"
+ }
+}

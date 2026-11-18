@@ -1,0 +1,52 @@
+{
+ "key": "jurassic",
+ "name": "Jurassic Park",
+ "group": "film",
+ "blurb": "Life finds a way: the parks, the escapes and the world after.",
+ "sources": [],
+ "entries": [
+  {
+   "ref": "jp",
+   "type": "movie",
+   "title": "Jurassic Park",
+   "year": 1993
+  },
+  {
+   "ref": "lw",
+   "type": "movie",
+   "title": "The Lost World: Jurassic Park",
+   "year": 1997
+  },
+  {
+   "ref": "jp3",
+   "type": "movie",
+   "title": "Jurassic Park III",
+   "year": 2001
+  },
+  {
+   "ref": "jw",
+   "type": "movie",
+   "title": "Jurassic World",
+   "year": 2015
+  },
+  {
+   "ref": "fk",
+   "type": "movie",
+   "title": "Jurassic World: Fallen Kingdom",
+   "year": 2018
+  },
+  {
+   "ref": "dom",
+   "type": "movie",
+   "title": "Jurassic World Dominion",
+   "year": 2022
+  },
+  {
+   "ref": "reb",
+   "type": "movie",
+   "title": "Jurassic World Rebirth",
+   "year": 2025
+  }
+ ],
+ "orders": {}
+}

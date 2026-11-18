@@ -1,0 +1,40 @@
+{
+ "key": "naruto",
+ "name": "Naruto",
+ "group": "anime",
+ "blurb": "Naruto Uzumaki's road to Hokage, and his son Boruto's generation after him.",
+ "sources": [],
+ "entries": [
+  {
+   "ref": "naruto",
+   "type": "tv",
+   "title": "Naruto",
+   "year": 2002
+  },
+  {
+   "ref": "shippuden",
+   "type": "tv",
+   "title": "Naruto Shippūden",
+   "year": 2007
+  },
+  {
+   "ref": "last",
+   "type": "movie",
+   "title": "The Last: Naruto the Movie",
+   "year": 2014
+  },
+  {
+   "ref": "boruto-movie",
+   "type": "movie",
+   "title": "Boruto: Naruto the Movie",
+   "year": 2015
+  },
+  {
+   "ref": "boruto",
+   "type": "tv",
+   "title": "Boruto: Naruto Next Generations",
+   "year": 2017
+  }
+ ],
+ "orders": {}
+}

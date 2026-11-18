@@ -1,0 +1,98 @@
+{
+ "key": "wizarding-world",
+ "name": "Wizarding World",
+ "group": "film",
+ "blurb": "Newt Scamander's 1920s adventures, then Harry's seven years at Hogwarts.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fantastic_Beasts"
+ ],
+ "entries": [
+  {
+   "ref": "hp1",
+   "type": "movie",
+   "title": "Harry Potter and the Philosopher's Stone",
+   "year": 2001
+  },
+  {
+   "ref": "hp2",
+   "type": "movie",
+   "title": "Harry Potter and the Chamber of Secrets",
+   "year": 2002
+  },
+  {
+   "ref": "hp3",
+   "type": "movie",
+   "title": "Harry Potter and the Prisoner of Azkaban",
+   "year": 2004
+  },
+  {
+   "ref": "hp4",
+   "type": "movie",
+   "title": "Harry Potter and the Goblet of Fire",
+   "year": 2005
+  },
+  {
+   "ref": "hp5",
+   "type": "movie",
+   "title": "Harry Potter and the Order of the Phoenix",
+   "year": 2007
+  },
+  {
+   "ref": "hp6",
+   "type": "movie",
+   "title": "Harry Potter and the Half-Blood Prince",
+   "year": 2009
+  },
+  {
+   "ref": "hp7",
+   "type": "movie",
+   "title": "Harry Potter and the Deathly Hallows: Part 1",
+   "year": 2010
+  },
+  {
+   "ref": "hp8",
+   "type": "movie",
+   "title": "Harry Potter and the Deathly Hallows: Part 2",
+   "year": 2011
+  },
+  {
+   "ref": "fb1",
+   "type": "movie",
+   "title": "Fantastic Beasts and Where to Find Them",
+   "year": 2016,
+   "note": "Set in 1926."
+  },
+  {
+   "ref": "fb2",
+   "type": "movie",
+   "title": "Fantastic Beasts: The Crimes of Grindelwald",
+   "year": 2018,
+   "note": "Set in 1927."
+  },
+  {
+   "ref": "fb3",
+   "type": "movie",
+   "title": "Fantastic Beasts: The Secrets of Dumbledore",
+   "year": 2022,
+   "note": "Set in the 1930s."
+  }
+ ],
+ "orders": {
+  "story": [
+   "fb1",
+   "fb2",
+   "fb3",
+   "hp1",
+   "hp2",
+   "hp3",
+   "hp4",
+   "hp5",
+   "hp6",
+   "hp7",
+   "hp8"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

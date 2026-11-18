@@ -1,0 +1,48 @@
+{
+ "key": "evangelion",
+ "name": "Evangelion",
+ "group": "anime",
+ "blurb": "Shinji, the Evas and the Angels: the original series and the Rebuild films.",
+ "sources": [],
+ "entries": [
+  {
+   "ref": "nge",
+   "type": "tv",
+   "title": "Neon Genesis Evangelion",
+   "year": 1995
+  },
+  {
+   "ref": "eoe",
+   "type": "movie",
+   "title": "The End of Evangelion",
+   "year": 1997,
+   "note": "An alternative telling of the series' last two episodes.",
+   "tmdb": 18491
+  },
+  {
+   "ref": "r1",
+   "type": "movie",
+   "title": "Evangelion: 1.0 You Are (Not) Alone",
+   "year": 2007
+  },
+  {
+   "ref": "r2",
+   "type": "movie",
+   "title": "Evangelion: 2.0 You Can (Not) Advance",
+   "year": 2009
+  },
+  {
+   "ref": "r3",
+   "type": "movie",
+   "title": "Evangelion: 3.0 You Can (Not) Redo",
+   "year": 2012
+  },
+  {
+   "ref": "r4",
+   "type": "movie",
+   "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+   "year": 2021
+  }
+ ],
+ "orders": {}
+}

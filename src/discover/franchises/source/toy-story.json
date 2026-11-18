@@ -1,0 +1,40 @@
+{
+ "key": "toy-story",
+ "name": "Toy Story",
+ "group": "film",
+ "blurb": "Woody, Buzz and the toys who come alive when nobody's looking.",
+ "sources": [],
+ "entries": [
+  {
+   "ref": "ts1",
+   "type": "movie",
+   "title": "Toy Story",
+   "year": 1995
+  },
+  {
+   "ref": "ts2",
+   "type": "movie",
+   "title": "Toy Story 2",
+   "year": 1999
+  },
+  {
+   "ref": "ts3",
+   "type": "movie",
+   "title": "Toy Story 3",
+   "year": 2010
+  },
+  {
+   "ref": "ts4",
+   "type": "movie",
+   "title": "Toy Story 4",
+   "year": 2019
+  },
+  {
+   "ref": "ts5",
+   "type": "movie",
+   "title": "Toy Story 5",
+   "year": 2026
+  }
+ ],
+ "orders": {}
+}

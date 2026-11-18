@@ -1,0 +1,74 @@
+{
+ "key": "witcher",
+ "name": "The Witcher",
+ "group": "film",
+ "blurb": "Geralt of Rivia, monster hunter, and the history of the Continent.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/The_Witcher:_Sirens_of_the_Deep"
+ ],
+ "entries": [
+  {
+   "ref": "w1",
+   "type": "tv",
+   "title": "The Witcher",
+   "year": 2019,
+   "season": 1
+  },
+  {
+   "ref": "w2",
+   "type": "tv",
+   "title": "The Witcher",
+   "year": 2019,
+   "season": 2
+  },
+  {
+   "ref": "w3",
+   "type": "tv",
+   "title": "The Witcher",
+   "year": 2019,
+   "season": 3
+  },
+  {
+   "ref": "w4",
+   "type": "tv",
+   "title": "The Witcher",
+   "year": 2019,
+   "season": 4
+  },
+  {
+   "ref": "blood",
+   "type": "tv",
+   "title": "The Witcher: Blood Origin",
+   "year": 2022,
+   "note": "1,200 years before Geralt."
+  },
+  {
+   "ref": "wolf",
+   "type": "movie",
+   "title": "The Witcher: Nightmare of the Wolf",
+   "year": 2021,
+   "note": "The young Vesemir, decades before Geralt."
+  },
+  {
+   "ref": "sirens",
+   "type": "movie",
+   "title": "The Witcher: Sirens of the Deep",
+   "year": 2025,
+   "note": "A story from Geralt's first season."
+  }
+ ],
+ "orders": {
+  "story": [
+   "blood",
+   "wolf",
+   "w1",
+   "sirens",
+   "w2",
+   "w3",
+   "w4"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

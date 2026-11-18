@@ -1,0 +1,54 @@
+{
+ "key": "monsterverse",
+ "name": "MonsterVerse",
+ "group": "film",
+ "blurb": "Godzilla, Kong and the Titans of Monarch's files.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Monsterverse"
+ ],
+ "entries": [
+  {
+   "ref": "g14",
+   "type": "movie",
+   "title": "Godzilla",
+   "year": 2014
+  },
+  {
+   "ref": "ksi",
+   "type": "movie",
+   "title": "Kong: Skull Island",
+   "year": 2017,
+   "note": "Set in 1973."
+  },
+  {
+   "ref": "kotm",
+   "type": "movie",
+   "title": "Godzilla: King of the Monsters",
+   "year": 2019
+  },
+  {
+   "ref": "gvk",
+   "type": "movie",
+   "title": "Godzilla vs. Kong",
+   "year": 2021
+  },
+  {
+   "ref": "gxk",
+   "type": "movie",
+   "title": "Godzilla x Kong: The New Empire",
+   "year": 2024
+  }
+ ],
+ "orders": {
+  "story": [
+   "ksi",
+   "g14",
+   "kotm",
+   "gvk",
+   "gxk"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "key": "back-to-the-future",
+ "name": "Back to the Future",
+ "group": "film",
+ "blurb": "Marty, Doc and a DeLorean at 88 miles per hour.",
+ "sources": [],
+ "entries": [
+  {
+   "ref": "bttf1",
+   "type": "movie",
+   "title": "Back to the Future",
+   "year": 1985
+  },
+  {
+   "ref": "bttf2",
+   "type": "movie",
+   "title": "Back to the Future Part II",
+   "year": 1989
+  },
+  {
+   "ref": "bttf3",
+   "type": "movie",
+   "title": "Back to the Future Part III",
+   "year": 1990
+  }
+ ],
+ "orders": {}
+}

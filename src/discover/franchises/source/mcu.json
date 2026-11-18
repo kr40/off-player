@@ -1,0 +1,286 @@
+{
+ "key": "mcu",
+ "name": "Marvel Cinematic Universe",
+ "group": "film",
+ "blurb": "Every Marvel Studios film, from Captain America in 1942 onwards. Series are left out to keep the order clear.",
+ "sources": [
+  "https://www.space.com/marvel-movies-in-order"
+ ],
+ "entries": [
+  {
+   "ref": "cafa",
+   "type": "movie",
+   "title": "Captain America: The First Avenger",
+   "year": 2011
+  },
+  {
+   "ref": "ff",
+   "type": "movie",
+   "title": "The Fantastic Four: First Steps",
+   "year": 2025,
+   "note": "Set in a separate universe, in a retro-futuristic 1960s.",
+   "tmdb": 617126
+  },
+  {
+   "ref": "cm",
+   "type": "movie",
+   "title": "Captain Marvel",
+   "year": 2019
+  },
+  {
+   "ref": "im1",
+   "type": "movie",
+   "title": "Iron Man",
+   "year": 2008
+  },
+  {
+   "ref": "im2",
+   "type": "movie",
+   "title": "Iron Man 2",
+   "year": 2010
+  },
+  {
+   "ref": "hulk",
+   "type": "movie",
+   "title": "The Incredible Hulk",
+   "year": 2008
+  },
+  {
+   "ref": "thor",
+   "type": "movie",
+   "title": "Thor",
+   "year": 2011
+  },
+  {
+   "ref": "av1",
+   "type": "movie",
+   "title": "The Avengers",
+   "year": 2012
+  },
+  {
+   "ref": "thor2",
+   "type": "movie",
+   "title": "Thor: The Dark World",
+   "year": 2013
+  },
+  {
+   "ref": "im3",
+   "type": "movie",
+   "title": "Iron Man 3",
+   "year": 2013
+  },
+  {
+   "ref": "catws",
+   "type": "movie",
+   "title": "Captain America: The Winter Soldier",
+   "year": 2014
+  },
+  {
+   "ref": "gotg",
+   "type": "movie",
+   "title": "Guardians of the Galaxy",
+   "year": 2014
+  },
+  {
+   "ref": "gotg2",
+   "type": "movie",
+   "title": "Guardians of the Galaxy Vol. 2",
+   "year": 2017
+  },
+  {
+   "ref": "aou",
+   "type": "movie",
+   "title": "Avengers: Age of Ultron",
+   "year": 2015
+  },
+  {
+   "ref": "antman",
+   "type": "movie",
+   "title": "Ant-Man",
+   "year": 2015
+  },
+  {
+   "ref": "cacw",
+   "type": "movie",
+   "title": "Captain America: Civil War",
+   "year": 2016
+  },
+  {
+   "ref": "bw",
+   "type": "movie",
+   "title": "Black Widow",
+   "year": 2021
+  },
+  {
+   "ref": "hc",
+   "type": "movie",
+   "title": "Spider-Man: Homecoming",
+   "year": 2017
+  },
+  {
+   "ref": "bp",
+   "type": "movie",
+   "title": "Black Panther",
+   "year": 2018
+  },
+  {
+   "ref": "ds",
+   "type": "movie",
+   "title": "Doctor Strange",
+   "year": 2016
+  },
+  {
+   "ref": "thor3",
+   "type": "movie",
+   "title": "Thor: Ragnarok",
+   "year": 2017
+  },
+  {
+   "ref": "aw",
+   "type": "movie",
+   "title": "Ant-Man and the Wasp",
+   "year": 2018
+  },
+  {
+   "ref": "iw",
+   "type": "movie",
+   "title": "Avengers: Infinity War",
+   "year": 2018
+  },
+  {
+   "ref": "eg",
+   "type": "movie",
+   "title": "Avengers: Endgame",
+   "year": 2019
+  },
+  {
+   "ref": "ffh",
+   "type": "movie",
+   "title": "Spider-Man: Far From Home",
+   "year": 2019
+  },
+  {
+   "ref": "shang",
+   "type": "movie",
+   "title": "Shang-Chi and the Legend of the Ten Rings",
+   "year": 2021
+  },
+  {
+   "ref": "eternals",
+   "type": "movie",
+   "title": "Eternals",
+   "year": 2021
+  },
+  {
+   "ref": "nwh",
+   "type": "movie",
+   "title": "Spider-Man: No Way Home",
+   "year": 2021
+  },
+  {
+   "ref": "ds2",
+   "type": "movie",
+   "title": "Doctor Strange in the Multiverse of Madness",
+   "year": 2022
+  },
+  {
+   "ref": "thor4",
+   "type": "movie",
+   "title": "Thor: Love and Thunder",
+   "year": 2022
+  },
+  {
+   "ref": "bp2",
+   "type": "movie",
+   "title": "Black Panther: Wakanda Forever",
+   "year": 2022
+  },
+  {
+   "ref": "quantum",
+   "type": "movie",
+   "title": "Ant-Man and the Wasp: Quantumania",
+   "year": 2023
+  },
+  {
+   "ref": "gotg3",
+   "type": "movie",
+   "title": "Guardians of the Galaxy Vol. 3",
+   "year": 2023
+  },
+  {
+   "ref": "marvels",
+   "type": "movie",
+   "title": "The Marvels",
+   "year": 2023
+  },
+  {
+   "ref": "dw",
+   "type": "movie",
+   "title": "Deadpool & Wolverine",
+   "year": 2024
+  },
+  {
+   "ref": "cabnw",
+   "type": "movie",
+   "title": "Captain America: Brave New World",
+   "year": 2025
+  },
+  {
+   "ref": "tbolts",
+   "type": "movie",
+   "title": "Thunderbolts*",
+   "year": 2025
+  },
+  {
+   "ref": "bnd",
+   "type": "movie",
+   "title": "Spider-Man: Brand New Day",
+   "year": 2026
+  }
+ ],
+ "orders": {
+  "story": [
+   "cafa",
+   "ff",
+   "cm",
+   "im1",
+   "im2",
+   "hulk",
+   "thor",
+   "av1",
+   "thor2",
+   "im3",
+   "catws",
+   "gotg",
+   "gotg2",
+   "aou",
+   "antman",
+   "cacw",
+   "bw",
+   "hc",
+   "bp",
+   "ds",
+   "thor3",
+   "aw",
+   "iw",
+   "eg",
+   "ffh",
+   "shang",
+   "eternals",
+   "nwh",
+   "ds2",
+   "thor4",
+   "bp2",
+   "quantum",
+   "gotg3",
+   "marvels",
+   "dw",
+   "cabnw",
+   "tbolts",
+   "bnd"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "key": "hunger-games",
+ "name": "The Hunger Games",
+ "group": "film",
+ "blurb": "Panem, the Capitol and the Games, from Snow's youth to Katniss's rebellion.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/The_Hunger_Games:_Sunrise_on_the_Reaping_(film)"
+ ],
+ "entries": [
+  {
+   "ref": "hg1",
+   "type": "movie",
+   "title": "The Hunger Games",
+   "year": 2012
+  },
+  {
+   "ref": "hg2",
+   "type": "movie",
+   "title": "The Hunger Games: Catching Fire",
+   "year": 2013
+  },
+  {
+   "ref": "hg3",
+   "type": "movie",
+   "title": "The Hunger Games: Mockingjay - Part 1",
+   "year": 2014
+  },
+  {
+   "ref": "hg4",
+   "type": "movie",
+   "title": "The Hunger Games: Mockingjay - Part 2",
+   "year": 2015
+  },
+  {
+   "ref": "ballad",
+   "type": "movie",
+   "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+   "year": 2023,
+   "note": "The 10th Hunger Games, 64 years earlier."
+  },
+  {
+   "ref": "sunrise",
+   "type": "movie",
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "year": 2026,
+   "note": "The 50th Hunger Games, 24 years earlier."
+  }
+ ],
+ "orders": {
+  "story": [
+   "ballad",
+   "sunrise",
+   "hg1",
+   "hg2",
+   "hg3",
+   "hg4"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

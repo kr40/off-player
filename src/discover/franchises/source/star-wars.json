@@ -1,0 +1,220 @@
+{
+ "key": "star-wars",
+ "name": "Star Wars",
+ "group": "film",
+ "blurb": "A galaxy far, far away: the Skywalker saga and everything around it, in Lucasfilm's official timeline order.",
+ "sources": [
+  "https://www.starwars.com/news/star-wars-movies-and-series-guide"
+ ],
+ "entries": [
+  {
+   "ref": "acolyte",
+   "type": "tv",
+   "title": "The Acolyte",
+   "year": 2024
+  },
+  {
+   "ref": "ep1",
+   "type": "movie",
+   "title": "Star Wars: Episode I - The Phantom Menace",
+   "year": 1999
+  },
+  {
+   "ref": "ep2",
+   "type": "movie",
+   "title": "Star Wars: Episode II - Attack of the Clones",
+   "year": 2002
+  },
+  {
+   "ref": "cw-movie",
+   "type": "movie",
+   "title": "Star Wars: The Clone Wars",
+   "year": 2008
+  },
+  {
+   "ref": "cw",
+   "type": "tv",
+   "title": "Star Wars: The Clone Wars",
+   "year": 2008
+  },
+  {
+   "ref": "tales-jedi",
+   "type": "tv",
+   "title": "Star Wars: Tales of the Jedi",
+   "year": 2022,
+   "note": "An anthology spanning many years."
+  },
+  {
+   "ref": "ep3",
+   "type": "movie",
+   "title": "Star Wars: Episode III - Revenge of the Sith",
+   "year": 2005
+  },
+  {
+   "ref": "tales-empire",
+   "type": "tv",
+   "title": "Star Wars: Tales of the Empire",
+   "year": 2024,
+   "note": "An anthology spanning many years."
+  },
+  {
+   "ref": "tales-underworld",
+   "type": "tv",
+   "title": "Star Wars: Tales of the Underworld",
+   "year": 2025,
+   "note": "An anthology spanning many years."
+  },
+  {
+   "ref": "bad-batch",
+   "type": "tv",
+   "title": "Star Wars: The Bad Batch",
+   "year": 2021
+  },
+  {
+   "ref": "maul",
+   "type": "tv",
+   "title": "Star Wars: Maul - Shadow Lord",
+   "year": 2026
+  },
+  {
+   "ref": "solo",
+   "type": "movie",
+   "title": "Solo: A Star Wars Story",
+   "year": 2018
+  },
+  {
+   "ref": "kenobi",
+   "type": "tv",
+   "title": "Obi-Wan Kenobi",
+   "year": 2022
+  },
+  {
+   "ref": "andor",
+   "type": "tv",
+   "title": "Andor",
+   "year": 2022,
+   "note": "Runs alongside Rebels; both lead into Rogue One."
+  },
+  {
+   "ref": "rebels",
+   "type": "tv",
+   "title": "Star Wars Rebels",
+   "year": 2014,
+   "note": "Runs alongside Andor; both lead into Rogue One."
+  },
+  {
+   "ref": "rogue-one",
+   "type": "movie",
+   "title": "Rogue One: A Star Wars Story",
+   "year": 2016
+  },
+  {
+   "ref": "ep4",
+   "type": "movie",
+   "title": "Star Wars",
+   "year": 1977
+  },
+  {
+   "ref": "ep5",
+   "type": "movie",
+   "title": "The Empire Strikes Back",
+   "year": 1980
+  },
+  {
+   "ref": "ep6",
+   "type": "movie",
+   "title": "Return of the Jedi",
+   "year": 1983
+  },
+  {
+   "ref": "mandalorian",
+   "type": "tv",
+   "title": "The Mandalorian",
+   "year": 2019
+  },
+  {
+   "ref": "boba",
+   "type": "tv",
+   "title": "The Book of Boba Fett",
+   "year": 2021
+  },
+  {
+   "ref": "ahsoka",
+   "type": "tv",
+   "title": "Ahsoka",
+   "year": 2023
+  },
+  {
+   "ref": "skeleton",
+   "type": "tv",
+   "title": "Star Wars: Skeleton Crew",
+   "year": 2024
+  },
+  {
+   "ref": "mando-grogu",
+   "type": "movie",
+   "title": "The Mandalorian and Grogu",
+   "year": 2026
+  },
+  {
+   "ref": "resistance",
+   "type": "tv",
+   "title": "Star Wars Resistance",
+   "year": 2018,
+   "note": "Starts before The Force Awakens and runs past it."
+  },
+  {
+   "ref": "ep7",
+   "type": "movie",
+   "title": "Star Wars: The Force Awakens",
+   "year": 2015
+  },
+  {
+   "ref": "ep8",
+   "type": "movie",
+   "title": "Star Wars: The Last Jedi",
+   "year": 2017
+  },
+  {
+   "ref": "ep9",
+   "type": "movie",
+   "title": "Star Wars: The Rise of Skywalker",
+   "year": 2019
+  }
+ ],
+ "orders": {
+  "story": [
+   "acolyte",
+   "ep1",
+   "ep2",
+   "cw-movie",
+   "cw",
+   "tales-jedi",
+   "ep3",
+   "tales-empire",
+   "tales-underworld",
+   "bad-batch",
+   "maul",
+   "solo",
+   "kenobi",
+   "andor",
+   "rebels",
+   "rogue-one",
+   "ep4",
+   "ep5",
+   "ep6",
+   "mandalorian",
+   "boba",
+   "ahsoka",
+   "skeleton",
+   "mando-grogu",
+   "resistance",
+   "ep7",
+   "ep8",
+   "ep9"
+  ]
+ },
+ "orderLabels": {
+  "story": "Timeline order"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "key": "dragon-ball",
+ "name": "Dragon Ball",
+ "group": "anime",
+ "blurb": "Goku from boyhood to god-level battles.",
+ "sources": [
+  "https://www.slashfilm.com/1813847/dragon-ball-daima-timeline-explained",
+  "https://en.wikipedia.org/wiki/Dragon_Ball_GT"
+ ],
+ "entries": [
+  {
+   "ref": "db",
+   "type": "tv",
+   "title": "Dragon Ball",
+   "year": 1986
+  },
+  {
+   "ref": "dbz",
+   "type": "tv",
+   "title": "Dragon Ball Z",
+   "year": 1989
+  },
+  {
+   "ref": "gt",
+   "type": "tv",
+   "title": "Dragon Ball GT",
+   "year": 1996,
+   "note": "An alternative continuation set years after Z."
+  },
+  {
+   "ref": "super",
+   "type": "tv",
+   "title": "Dragon Ball Super",
+   "year": 2015
+  },
+  {
+   "ref": "broly",
+   "type": "movie",
+   "title": "Dragon Ball Super: Broly",
+   "year": 2018
+  },
+  {
+   "ref": "superhero",
+   "type": "movie",
+   "title": "Dragon Ball Super: Super Hero",
+   "year": 2022
+  },
+  {
+   "ref": "daima",
+   "type": "tv",
+   "title": "Dragon Ball Daima",
+   "year": 2024,
+   "note": "Set shortly after the Majin Buu saga."
+  }
+ ],
+ "orders": {
+  "story": [
+   "db",
+   "dbz",
+   "daima",
+   "super",
+   "broly",
+   "superhero",
+   "gt"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

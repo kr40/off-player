@@ -1,0 +1,33 @@
+{
+ "key": "jujutsu-kaisen",
+ "name": "Jujutsu Kaisen",
+ "group": "anime",
+ "blurb": "Cursed energy, sorcerers and Yuji Itadori's impossible bargain.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jujutsu_Kaisen_0"
+ ],
+ "entries": [
+  {
+   "ref": "jjk",
+   "type": "tv",
+   "title": "Jujutsu Kaisen",
+   "year": 2020
+  },
+  {
+   "ref": "jjk0",
+   "type": "movie",
+   "title": "Jujutsu Kaisen 0",
+   "year": 2021,
+   "note": "A prequel: Yuta Okkotsu's story, a year before the series."
+  }
+ ],
+ "orders": {
+  "story": [
+   "jjk0",
+   "jjk"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

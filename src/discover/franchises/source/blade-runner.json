@@ -1,0 +1,42 @@
+{
+ "key": "blade-runner",
+ "name": "Blade Runner",
+ "group": "film",
+ "blurb": "Replicants, blade runners and the question of what makes us human.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Blade_Runner:_Black_Lotus"
+ ],
+ "entries": [
+  {
+   "ref": "br",
+   "type": "movie",
+   "title": "Blade Runner",
+   "year": 1982,
+   "note": "Set in 2019."
+  },
+  {
+   "ref": "br2049",
+   "type": "movie",
+   "title": "Blade Runner 2049",
+   "year": 2017,
+   "note": "Set in 2049."
+  },
+  {
+   "ref": "lotus",
+   "type": "tv",
+   "title": "Blade Runner: Black Lotus",
+   "year": 2021,
+   "note": "Set in 2032."
+  }
+ ],
+ "orders": {
+  "story": [
+   "br",
+   "lotus",
+   "br2049"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

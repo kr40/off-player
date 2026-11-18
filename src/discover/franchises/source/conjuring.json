@@ -1,0 +1,90 @@
+{
+ "key": "conjuring",
+ "name": "The Conjuring Universe",
+ "group": "film",
+ "blurb": "Ed and Lorraine Warren's cases and the evil they kept locked away, 1952 to 1986.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/The_Conjuring_Universe"
+ ],
+ "entries": [
+  {
+   "ref": "c1",
+   "type": "movie",
+   "title": "The Conjuring",
+   "year": 2013,
+   "note": "Set in 1971."
+  },
+  {
+   "ref": "ann",
+   "type": "movie",
+   "title": "Annabelle",
+   "year": 2014,
+   "note": "Set in 1970."
+  },
+  {
+   "ref": "c2",
+   "type": "movie",
+   "title": "The Conjuring 2",
+   "year": 2016,
+   "note": "Set in 1977."
+  },
+  {
+   "ref": "ac",
+   "type": "movie",
+   "title": "Annabelle: Creation",
+   "year": 2017,
+   "note": "Set in 1958."
+  },
+  {
+   "ref": "nun",
+   "type": "movie",
+   "title": "The Nun",
+   "year": 2018,
+   "note": "Set in 1952."
+  },
+  {
+   "ref": "ach",
+   "type": "movie",
+   "title": "Annabelle Comes Home",
+   "year": 2019,
+   "note": "Set in 1972."
+  },
+  {
+   "ref": "c3",
+   "type": "movie",
+   "title": "The Conjuring: The Devil Made Me Do It",
+   "year": 2021,
+   "note": "Set in 1981."
+  },
+  {
+   "ref": "nun2",
+   "type": "movie",
+   "title": "The Nun II",
+   "year": 2023,
+   "note": "Set in 1956."
+  },
+  {
+   "ref": "c4",
+   "type": "movie",
+   "title": "The Conjuring: Last Rites",
+   "year": 2025,
+   "note": "Set in 1986."
+  }
+ ],
+ "orders": {
+  "story": [
+   "nun",
+   "nun2",
+   "ac",
+   "ann",
+   "c1",
+   "ach",
+   "c2",
+   "c3",
+   "c4"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

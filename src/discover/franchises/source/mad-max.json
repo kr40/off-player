@@ -1,0 +1,54 @@
+{
+ "key": "mad-max",
+ "name": "Mad Max",
+ "group": "film",
+ "blurb": "Fuel, chrome and the road warrior of the wasteland.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Furiosa:_A_Mad_Max_Saga"
+ ],
+ "entries": [
+  {
+   "ref": "mm",
+   "type": "movie",
+   "title": "Mad Max",
+   "year": 1979
+  },
+  {
+   "ref": "mm2",
+   "type": "movie",
+   "title": "Mad Max 2",
+   "year": 1981
+  },
+  {
+   "ref": "mm3",
+   "type": "movie",
+   "title": "Mad Max Beyond Thunderdome",
+   "year": 1985
+  },
+  {
+   "ref": "fury",
+   "type": "movie",
+   "title": "Mad Max: Fury Road",
+   "year": 2015
+  },
+  {
+   "ref": "furiosa",
+   "type": "movie",
+   "title": "Furiosa: A Mad Max Saga",
+   "year": 2024,
+   "note": "A prequel to Fury Road."
+  }
+ ],
+ "orders": {
+  "story": [
+   "mm",
+   "mm2",
+   "mm3",
+   "furiosa",
+   "fury"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "key": "middle-earth",
+ "name": "Middle-earth",
+ "group": "film",
+ "blurb": "Tolkien's Middle-earth on screen: the Second Age, the Rohirrim, The Hobbit and The Lord of the Rings.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_War_of_the_Rohirrim",
+  "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Rings_of_Power"
+ ],
+ "entries": [
+  {
+   "ref": "rop",
+   "type": "tv",
+   "title": "The Lord of the Rings: The Rings of Power",
+   "year": 2022,
+   "note": "The Second Age, thousands of years earlier."
+  },
+  {
+   "ref": "rohirrim",
+   "type": "movie",
+   "title": "The Lord of the Rings: The War of the Rohirrim",
+   "year": 2024,
+   "note": "Set about 183 years before The Lord of the Rings."
+  },
+  {
+   "ref": "h1",
+   "type": "movie",
+   "title": "The Hobbit: An Unexpected Journey",
+   "year": 2012
+  },
+  {
+   "ref": "h2",
+   "type": "movie",
+   "title": "The Hobbit: The Desolation of Smaug",
+   "year": 2013
+  },
+  {
+   "ref": "h3",
+   "type": "movie",
+   "title": "The Hobbit: The Battle of the Five Armies",
+   "year": 2014
+  },
+  {
+   "ref": "l1",
+   "type": "movie",
+   "title": "The Lord of the Rings: The Fellowship of the Ring",
+   "year": 2001
+  },
+  {
+   "ref": "l2",
+   "type": "movie",
+   "title": "The Lord of the Rings: The Two Towers",
+   "year": 2002
+  },
+  {
+   "ref": "l3",
+   "type": "movie",
+   "title": "The Lord of the Rings: The Return of the King",
+   "year": 2003
+  }
+ ],
+ "orders": {
+  "story": [
+   "rop",
+   "rohirrim",
+   "h1",
+   "h2",
+   "h3",
+   "l1",
+   "l2",
+   "l3"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

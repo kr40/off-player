@@ -1,0 +1,104 @@
+/* mpv draws into the native window behind the page. The page itself is
+   transparent; screens that should hide the video paint their own background. */
+:root {
+  --bg: #0b0b0f;
+  --bg-raised: #14141a;
+  --bg-hover: #1b1b23;
+  --line: rgba(255, 255, 255, 0.07);
+  --accent: #e8b04a; /* warm gold */
+  --accent-soft: rgba(232, 176, 74, 0.14);
+  --warn: #f08a5d;
+  --fg: #f5f3ef;
+  --fg-dim: rgba(245, 243, 239, 0.62);
+  --fg-faint: rgba(245, 243, 239, 0.38);
+  --glass: rgba(18, 18, 24, 0.62);
+  --glass-border: rgba(255, 255, 255, 0.09);
+  --track: rgba(255, 255, 255, 0.22);
+  --radius: 14px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --nav-h: 68px;
+  --subnav-h: 50px;
+
+  /* Motion (PRD 2.0 §11.1). Animate transform and opacity only. */
+  --t-fast: 120ms;
+  --t-base: 200ms;
+  --t-slow: 320ms;
+  --t-page: 480ms;
+  --ease-out-soft: cubic-bezier(.2, .8, .2, 1);
+
+  /* Layers (PRD 2.0 §11.3). Use only these; never a literal z-index. */
+  --z-row-hover: 3;  /* a hovered row over the rows around it */
+  --z-raised: 4;     /* boxes that sit over a row's hover area */
+  --z-sticky: 10;    /* filter bars */
+  --z-menu: 20;      /* dropdown panels */
+  --z-topbar: 30;
+  --z-modal: 40;
+  --z-toast: 50;
+  /* Inside one component's own stacking context. */
+  --z-below: -1; --z-l1: 1; --z-l2: 2; --z-l3: 3; --z-l4: 4; --z-l5: 5; --z-l6: 6; --z-l8: 8;
+  --gutter: clamp(20px, 4vw, 64px);
+  font-family: "Geist Variable", "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+  font-feature-settings: "ss01";
+  color: var(--fg);
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  color-scheme: dark;
+}
+
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+}
+
+button { font: inherit; color: inherit; }
+
+/* Visible keyboard focus everywhere; mouse clicks don't show it. */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.page:focus-visible, input:focus-visible { outline: none; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 38px;
+  padding: 0 16px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg-raised);
+  font-size: 14px;
+  font-weight: 550;
+  cursor: pointer;
+  transition: background .2s var(--ease), border-color .2s var(--ease), transform .12s var(--ease);
+}
+.btn:hover { background: var(--bg-hover); border-color: rgba(255,255,255,.14); }
+.btn:active { transform: scale(.97); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn.primary { background: var(--accent); border-color: transparent; color: #1a1408; }
+.btn.primary:hover { background: #f0bd5c; }
+.btn svg { width: 18px; height: 18px; }
+
+@keyframes pop {
+  from { opacity: 0; transform: translateY(6px) scale(.98); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,.25);
+  border-top-color: var(--accent);
+  animation: spin .8s linear infinite;
+}
+
+.crash { position: fixed; inset: 0; display: grid; place-items: center; background: var(--bg); padding: 24px; }
+.crash-card { max-width: 520px; padding: 28px; border-radius: 18px; background: var(--bg-raised); border: 1px solid var(--line); }
+.crash-card h2 { margin: 0 0 8px; font-size: 20px; }
+.crash-card p { margin: 0 0 14px; color: var(--fg-dim); }
+.crash-card pre { margin: 0 0 18px; padding: 10px 12px; border-radius: 8px; background: rgba(0,0,0,.35); color: var(--warn); font-size: 12.5px; white-space: pre-wrap; word-break: break-word; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; }
+}

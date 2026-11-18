@@ -1,0 +1,47 @@
+{
+ "key": "dune",
+ "name": "Dune",
+ "group": "film",
+ "blurb": "Arrakis, the spice and the Atreides, from the Sisterhood's beginnings to Paul's war.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dune:_Prophecy"
+ ],
+ "entries": [
+  {
+   "ref": "prophecy",
+   "type": "tv",
+   "title": "Dune: Prophecy",
+   "year": 2024,
+   "note": "Set 10,000 years before Paul Atreides."
+  },
+  {
+   "ref": "d1",
+   "type": "movie",
+   "title": "Dune",
+   "year": 2021
+  },
+  {
+   "ref": "d2",
+   "type": "movie",
+   "title": "Dune: Part Two",
+   "year": 2024
+  },
+  {
+   "ref": "d3",
+   "type": "movie",
+   "title": "Dune: Part Three",
+   "year": 2026
+  }
+ ],
+ "orders": {
+  "story": [
+   "prophecy",
+   "d1",
+   "d2",
+   "d3"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

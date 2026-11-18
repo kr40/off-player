@@ -1,0 +1,41 @@
+{
+ "key": "game-of-thrones",
+ "name": "Game of Thrones",
+ "group": "film",
+ "blurb": "Westeros across two centuries: the Targaryen civil war, Dunk and Egg, and the War of the Five Kings.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/A_Knight_of_the_Seven_Kingdoms_(TV_series)"
+ ],
+ "entries": [
+  {
+   "ref": "got",
+   "type": "tv",
+   "title": "Game of Thrones",
+   "year": 2011
+  },
+  {
+   "ref": "hotd",
+   "type": "tv",
+   "title": "House of the Dragon",
+   "year": 2022,
+   "note": "About 170 years before Game of Thrones."
+  },
+  {
+   "ref": "kotsk",
+   "type": "tv",
+   "title": "A Knight of the Seven Kingdoms",
+   "year": 2026,
+   "note": "About 90 years before Game of Thrones."
+  }
+ ],
+ "orders": {
+  "story": [
+   "hotd",
+   "kotsk",
+   "got"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

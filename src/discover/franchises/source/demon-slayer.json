@@ -1,0 +1,28 @@
+{
+ "key": "demon-slayer",
+ "name": "Demon Slayer",
+ "group": "anime",
+ "blurb": "Tanjiro's hunt for a cure for his sister, and the demons in the way.",
+ "sources": [],
+ "entries": [
+  {
+   "ref": "ds",
+   "type": "tv",
+   "title": "Demon Slayer: Kimetsu no Yaiba",
+   "year": 2019
+  },
+  {
+   "ref": "mugen",
+   "type": "movie",
+   "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+   "year": 2020
+  },
+  {
+   "ref": "castle",
+   "type": "movie",
+   "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+   "year": 2025
+  }
+ ],
+ "orders": {}
+}

@@ -1,0 +1,54 @@
+{
+ "key": "fate",
+ "name": "Fate",
+ "group": "anime",
+ "blurb": "The Holy Grail War in Fuyuki: Fate/Zero and the routes of Fate/stay night.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fate/Zero"
+ ],
+ "entries": [
+  {
+   "ref": "zero",
+   "type": "tv",
+   "title": "Fate/Zero",
+   "year": 2011,
+   "note": "Ten years before Fate/stay night."
+  },
+  {
+   "ref": "ubw",
+   "type": "tv",
+   "title": "Fate/stay night [Unlimited Blade Works]",
+   "year": 2014
+  },
+  {
+   "ref": "hf1",
+   "type": "movie",
+   "title": "Fate/stay night: Heaven's Feel I. presage flower",
+   "year": 2017
+  },
+  {
+   "ref": "hf2",
+   "type": "movie",
+   "title": "Fate/stay night: Heaven's Feel II. lost butterfly",
+   "year": 2019
+  },
+  {
+   "ref": "hf3",
+   "type": "movie",
+   "title": "Fate/stay night: Heaven's Feel III. spring song",
+   "year": 2020
+  }
+ ],
+ "orders": {
+  "story": [
+   "zero",
+   "ubw",
+   "hf1",
+   "hf2",
+   "hf3"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6c66c"/>
+      <stop offset="0.55" stop-color="#e8a646"/>
+      <stop offset="1" stop-color="#c2652a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.22" r="0.75">
+      <stop offset="0" stop-color="#fff6e0" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#fff6e0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="play" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d1915"/>
+      <stop offset="1" stop-color="#0f0d0b"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="214" fill="url(#bg)"/>
+  <rect x="64" y="64" width="896" height="896" rx="214" fill="url(#glow)"/>
+  <rect x="64.5" y="64.5" width="895" height="895" rx="213.5" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3"/>
+  <!-- Play glyph, optically centred (shifted right), with rounded corners -->
+  <path d="M405 318c0-34 37-55 66-37l258 160c28 17 28 58 0 75L471 676c-29 18-66-3-66-37Z" fill="url(#play)"/>
+</svg>

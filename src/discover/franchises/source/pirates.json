@@ -1,0 +1,40 @@
+{
+ "key": "pirates",
+ "name": "Pirates of the Caribbean",
+ "group": "film",
+ "blurb": "Captain Jack Sparrow and the curses of the high seas.",
+ "sources": [],
+ "entries": [
+  {
+   "ref": "p1",
+   "type": "movie",
+   "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+   "year": 2003
+  },
+  {
+   "ref": "p2",
+   "type": "movie",
+   "title": "Pirates of the Caribbean: Dead Man's Chest",
+   "year": 2006
+  },
+  {
+   "ref": "p3",
+   "type": "movie",
+   "title": "Pirates of the Caribbean: At World's End",
+   "year": 2007
+  },
+  {
+   "ref": "p4",
+   "type": "movie",
+   "title": "Pirates of the Caribbean: On Stranger Tides",
+   "year": 2011
+  },
+  {
+   "ref": "p5",
+   "type": "movie",
+   "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+   "year": 2017
+  }
+ ],
+ "orders": {}
+}

@@ -1,0 +1,34 @@
+{
+ "key": "planet-of-the-apes",
+ "name": "Planet of the Apes",
+ "group": "film",
+ "blurb": "Caesar's rise and the world the apes inherit.",
+ "sources": [],
+ "entries": [
+  {
+   "ref": "rise",
+   "type": "movie",
+   "title": "Rise of the Planet of the Apes",
+   "year": 2011
+  },
+  {
+   "ref": "dawn",
+   "type": "movie",
+   "title": "Dawn of the Planet of the Apes",
+   "year": 2014
+  },
+  {
+   "ref": "war",
+   "type": "movie",
+   "title": "War for the Planet of the Apes",
+   "year": 2017
+  },
+  {
+   "ref": "kingdom",
+   "type": "movie",
+   "title": "Kingdom of the Planet of the Apes",
+   "year": 2024
+  }
+ ],
+ "orders": {}
+}

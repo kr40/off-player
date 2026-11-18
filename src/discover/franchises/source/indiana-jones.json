@@ -1,0 +1,58 @@
+{
+ "key": "indiana-jones",
+ "name": "Indiana Jones",
+ "group": "film",
+ "blurb": "Whip, fedora, and the things that belong in a museum.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Temple_of_Doom"
+ ],
+ "entries": [
+  {
+   "ref": "raiders",
+   "type": "movie",
+   "title": "Raiders of the Lost Ark",
+   "year": 1981,
+   "note": "Set in 1936."
+  },
+  {
+   "ref": "doom",
+   "type": "movie",
+   "title": "Indiana Jones and the Temple of Doom",
+   "year": 1984,
+   "note": "Set in 1935, a year before Raiders."
+  },
+  {
+   "ref": "crusade",
+   "type": "movie",
+   "title": "Indiana Jones and the Last Crusade",
+   "year": 1989,
+   "note": "Set in 1938."
+  },
+  {
+   "ref": "skull",
+   "type": "movie",
+   "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+   "year": 2008,
+   "note": "Set in 1957."
+  },
+  {
+   "ref": "dial",
+   "type": "movie",
+   "title": "Indiana Jones and the Dial of Destiny",
+   "year": 2023,
+   "note": "Set in 1969."
+  }
+ ],
+ "orders": {
+  "story": [
+   "doom",
+   "raiders",
+   "crusade",
+   "skull",
+   "dial"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}

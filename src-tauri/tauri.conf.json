@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Off Player",
+  "version": "1.0.0",
+  "identifier": "com.offplayer.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Off Player",
+        "width": 1280,
+        "height": 760,
+        "minWidth": 640,
+        "minHeight": 400,
+        "transparent": true,
+        "backgroundColor": "#00000000"
+      }
+    ],
+    "security": {
+      "csp": null,
+      "assetProtocol": {
+        "enable": true,
+        "scope": ["$APPLOCALDATA/artwork/**", "$APPLOCALDATA/thumbs/**"]
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "publisher": "Off Player",
+    "shortDescription": "Watch what you own, find what to watch next",
+    "longDescription": "Your own shows and movies with artwork, resume and next episode, plus suggestions, filters, top lists, IMDb ratings and franchises in story order for finding what to watch next.",
+    "category": "Video",
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser"
+      },
+      "webviewInstallMode": { "type": "downloadBootstrapper" }
+    },
+    "resources": ["lib/**/*"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

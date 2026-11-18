@@ -1,0 +1,83 @@
+{
+ "key": "alien",
+ "name": "Alien",
+ "group": "film",
+ "blurb": "From the Engineers to the Nostromo and beyond: the Alien films and series.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Alien_(franchise)"
+ ],
+ "entries": [
+  {
+   "ref": "alien",
+   "type": "movie",
+   "title": "Alien",
+   "year": 1979,
+   "note": "Set in 2122."
+  },
+  {
+   "ref": "aliens",
+   "type": "movie",
+   "title": "Aliens",
+   "year": 1986,
+   "note": "Set in 2179."
+  },
+  {
+   "ref": "a3",
+   "type": "movie",
+   "title": "Alien³",
+   "year": 1992,
+   "note": "Set in 2179."
+  },
+  {
+   "ref": "res",
+   "type": "movie",
+   "title": "Alien Resurrection",
+   "year": 1997,
+   "note": "Set in 2381."
+  },
+  {
+   "ref": "prom",
+   "type": "movie",
+   "title": "Prometheus",
+   "year": 2012,
+   "note": "Set in 2093.",
+   "tmdb": 70981
+  },
+  {
+   "ref": "cov",
+   "type": "movie",
+   "title": "Alien: Covenant",
+   "year": 2017,
+   "note": "Set in 2104."
+  },
+  {
+   "ref": "rom",
+   "type": "movie",
+   "title": "Alien: Romulus",
+   "year": 2024,
+   "note": "Set in 2142."
+  },
+  {
+   "ref": "earth",
+   "type": "tv",
+   "title": "Alien: Earth",
+   "year": 2025,
+   "note": "Set in 2120."
+  }
+ ],
+ "orders": {
+  "story": [
+   "prom",
+   "cov",
+   "earth",
+   "alien",
+   "rom",
+   "aliens",
+   "a3",
+   "res"
+  ]
+ },
+ "orderLabels": {
+  "story": "Story order"
+ }
+}
